@@ -1,0 +1,4 @@
+- categorie(id, nom, niveau, numero)
+- unite(id, nom)
+- travail(id, nom, id_categorie, numero, id_unite, prix_unitaire)
+- devis(id_devis, designation, id_travail, quantite, prix_unitaire)

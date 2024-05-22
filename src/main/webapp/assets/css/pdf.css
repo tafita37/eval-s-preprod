@@ -1,0 +1,48 @@
+* {
+  color: #4B49AC;
+}
+
+.desc {
+  font-weight: bold;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.custom-table {
+  width: 650px;
+  /* Largeur totale de la table */
+  /* border-collapse: collapse; */
+  margin: 0;
+  /* Marge autour de la table */
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+  /* Couleur de fond pour les en-têtes */
+}
+
+.custom-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+  /* Couleur de fond pour les lignes paires */
+}
+
+h1 {
+  text-align: center;
+  /* Centrer le texte */
+  color: #333;
+  /* Couleur du texte */
+  font-size: 24px;
+  /* Taille de la police */
+  margin-top: 20px;
+  /* Marge supérieure */
+  margin-bottom: 20px;
+  /* Marge inférieure */
+}
